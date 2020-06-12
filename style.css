@@ -9,14 +9,14 @@ margin: 0;
 padding: 0;
 height: 100vh;
 line-height: 180%;
-color #666;
+color: #666;
 text-align: center;
 padding: 12px;
 
 }
 
 .logo-box span{
-    margin-left: 980px;
+    margin-left: 880px;
    
     justify-content: space-between;
 }
@@ -184,7 +184,7 @@ p{
     text-transform: uppercase;
 }
 #header1 .btn{
-    color: white;
+    color: #dead9d;
     border:1px solid #fff;
     border-radius: 40px;
 }
@@ -192,7 +192,7 @@ p{
     background-color: white;
     color:#dead9d;
    border-radius: 0px;
-   transition: 0.6s;
+  
     border:1px solid #dead9d;
 }
 
@@ -268,7 +268,7 @@ h1{
         margin-left: 18%;
     }
     .logo-box span{
-        margin-left: 180px;
+        margin-left: 100px;
         justify-content: space-between;
     }
 
@@ -288,9 +288,7 @@ h1{
     .logo-box h5{
         font-size: 22px;
       }
-    .heading-primary{
-        /* margin-right: 170px; */
-    }
+    
     p{
         text-align: left;
     }
@@ -322,7 +320,7 @@ h1{
 
     color: #777;
 } */
-
+/* 
 
 .btn::after {
     content: "";
@@ -337,15 +335,16 @@ h1{
     transition: all .6s ;
 
 }
-.btn-white::after{
+.btn-success::after{
     background-color: #b8b5a7;
+    
 }
 
 
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
-}
+} */
 .text{
     color: white;
 }
