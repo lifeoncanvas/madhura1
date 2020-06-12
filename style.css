@@ -162,6 +162,8 @@ animation:moveInRight 1s ease-out;
 } */
 .jumbotron{
     background-color:white ;
+    width: 100%;
+    padding: 0%;
 }
 
 
@@ -231,7 +233,7 @@ h1{
 }
 .container{
    
-    padding: 50px 80px;
+    /* padding: 5px 80px; */
 }
 .container{
   
@@ -252,6 +254,10 @@ h1{
 
 
 @media(max-width: 768px) {
+
+    body,html{
+        padding: 8px;
+    }
 
     .navbar-brand:hover{
         letter-spacing: 5px;
