@@ -162,8 +162,7 @@ animation:moveInRight 1s ease-out;
 } */
 .jumbotron{
     background-color:white ;
-    width: 100%;
-    padding: 0%;
+    /* width: 100%; */
 }
 
 
@@ -233,7 +232,7 @@ h1{
 }
 .container{
    
-    /* padding: 5px 80px; */
+    padding: 50px 80px;
 }
 .container{
   
@@ -282,6 +281,15 @@ h1{
         margin-top: 10%;
         text-align: center;
         
+    }
+    .heading-primary{
+        font-size: 28px;
+    }
+    .heading-primary-main{
+        letter-spacing: 29px;
+    }
+    .heading-primary-sub{
+line-height: 15px;
     }
     .lip img{
         height: 50vh;
