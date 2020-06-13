@@ -11,7 +11,7 @@ height: 100vh;
 line-height: 180%;
 color: #666;
 text-align: center;
-padding: 12px;
+/* padding: 12px; */
 
 }
 
@@ -140,13 +140,11 @@ animation:moveInRight 1s ease-out;
   
    
 }
-
   #nav-item{
     margin-left: 460px;
   } 
    
     
-
 .in{
     color: black;
     margin-left: 40px;
@@ -162,7 +160,11 @@ animation:moveInRight 1s ease-out;
 } */
 .jumbotron{
     background-color:white ;
+    
     /* width: 100%; */
+}
+.jumbotron h5{
+    font-family: 'Beth Ellen', cursive;
 }
 
 
@@ -178,7 +180,16 @@ animation:moveInRight 1s ease-out;
     background-attachment: fixed;
 } */
 p{
-    margin-top: 50%;
+    padding: 0px;
+        position: relative;
+    font-size: 27px;
+     line-height: 40px;
+        margin-left: 40px;
+        margin-left: 40px;
+    justify-content: center;
+    
+    font-family: 'Beth Ellen', cursive;
+        
 }
 #header1 h1{
     color: #dead9d;
@@ -252,10 +263,11 @@ h1{
 
 
 
-@media(max-width: 768px) {
+/* @media only screen and(max-width: 600px) {
 
     body,html{
         padding: 8px;
+        background-color: black;
     }
 
     .navbar-brand:hover{
@@ -305,8 +317,8 @@ line-height: 15px;
     
     p{
         text-align: left;
-    }
-}
+    } 
+}*/
 
 .btn:link,
 .btn:visited {
@@ -331,11 +343,9 @@ line-height: 15px;
 }
 /* .btn-white{
     background-color: #000;
-
     color: #777;
 } */
 /* 
-
 .btn::after {
     content: "";
     display: inline-block;
@@ -347,14 +357,11 @@ line-height: 15px;
     left: 0;
     z-index: -1;
     transition: all .6s ;
-
 }
 .btn-success::after{
     background-color: #b8b5a7;
     
 }
-
-
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
@@ -421,3 +428,80 @@ img{
     margin-top: 40%;
     font-family: 'Beth Ellen', cursive;
 }
+
+@media(min-width:320px) and (max-width:480px) {
+    body,html{
+        margin: 0;
+        padding:7px;
+        
+        background-color: white;
+    }
+
+    .navbar-brand:hover{
+        letter-spacing: 5px;
+        transition:0.6s;
+       
+    }
+    #nav-item{
+        margin-left: 10px;
+      } 
+       
+    .heading{
+        font-size: 350%;
+        letter-spacing: 18px;
+        margin-left: 18%;
+    }
+    .logo-box span{
+        margin-left: 100px;
+        justify-content: space-between;
+    }
+
+    .intro{
+        margin-bottom: 20px;
+    }
+
+    p{
+       padding: 0px;
+        position: relative;
+    font-size: 25px;
+   
+     line-height: 30px;
+        margin-left: 10px;
+    justify-content: center;
+    
+    font-family: 'Beth Ellen', cursive;
+        
+    }
+    .jumbotron h5{
+        font-family: 'Beth Ellen', cursive;
+
+    }
+    .heading-primary{
+        font-size: 28px;
+    }
+    .heading-primary-main{
+        letter-spacing: 29px;
+    }
+    .heading-primary-sub{
+line-height: 15px;
+    }
+    .lip img{
+        height: 50vh;
+    }
+    img{
+        height: 350px;
+        width: 260px;
+        margin: 0em;
+      
+        
+    }
+    .logo-box h5{
+        font-size: 22px;
+      }
+    
+    p{
+        text-align: left;
+    } 
+}
+
+
