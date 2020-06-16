@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
 
 
 body,html{
@@ -50,7 +51,7 @@ text-align: center;
 }
 .logo-box {
     position: absolute;
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Merienda', cursive;
     text-transform: lowercase;
     top: 40px;
     left: 40px;
@@ -89,7 +90,7 @@ animation-timing-function: ease-out;
 .heading-primary-sub{
 display: block;
 font-size: 19px;
-font-family: 'Beth Ellen', cursive;
+font-family: 'Merienda', cursive;
 text-transform: lowercase;
 font-weight: 400;
 letter-spacing: 19px;
@@ -164,7 +165,7 @@ animation:moveInRight 1s ease-out;
     /* width: 100%; */
 }
 .jumbotron h5{
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 
@@ -188,7 +189,7 @@ p{
         margin-left: 40px;
     justify-content: center;
     
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Merienda', cursive;
         
 }
 #header1 h1{
@@ -426,7 +427,7 @@ img{
     font-size: 25px;
     justify-content: center;
     margin-top: 40%;
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 @media(min-width:320px) and (max-width:480px) {
@@ -469,11 +470,11 @@ img{
         margin-left: 10px;
     justify-content: center;
     
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Merienda', cursive;
         
     }
     .jumbotron h5{
-        font-family: 'Beth Ellen', cursive;
+        font-family: 'Merienda', cursive;
 
     }
     .heading-primary{
